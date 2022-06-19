@@ -1,0 +1,75 @@
+.addstudent {
+  padding: 20px;
+}
+.addstudent__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.addstudent__content {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 20px;
+}
+.addstudent__add-img {
+  width: 48%;
+  padding: 20px;
+  box-shadow: -1px -1px 21px -3px rgba(34, 60, 80, 0.2);
+}
+.addstudent__img-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.addstudent__imgcon {
+  height: 220px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: #F1F2F7;
+}
+.addstudent__form {
+  width: 49%;
+}
+.addstudent__input {
+  padding: 8px 0;
+  font-size: 15px;
+  margin-bottom: 4px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+.addstudent__label {
+  font-size: 12px;
+}
+.addstudent__btn-group {
+  margin-top: 70px;
+  justify-content: center;
+}
+.addstudent__cansel-btn {
+  width: 120px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #4484EB;
+  border: 1px solid #4484EB;
+}
+.addstudent__save-btn {
+  width: 120px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: #4484EB;
+  cursor: pointer;
+  margin-left: 30px;
+  color: #fff;
+  border: 1px solid #4484EB;
+}
+.addstudent__imgcon .bxs-upvote {
+  margin-top: 15%;
+  margin-left: 50%;
+  transform: translate(-50%,-15%);
+  font-size: 60px;
+  color: #ccc;
+}
+.addstudent__img-text {
+  text-align: center;
+  color: #ccc;
+}
+

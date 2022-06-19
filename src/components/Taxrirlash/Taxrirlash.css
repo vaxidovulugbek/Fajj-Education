@@ -1,0 +1,82 @@
+.taxrirlash {
+  margin: 20px;
+}
+.taxrirlash__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.taxrirlash__content {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 20px;
+}
+.taxrirlash__header {
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.taxrirlash__pic {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.taxrirlash__header-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.taxrirlash__header-phone {
+  font-size: 14px;
+}
+.taxrirlash__malumot {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.taxrirlash__form-item {
+  width: 28%;
+}
+.taxrirlash__input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #ccc;
+}
+.taxrirlash__label {
+  font-size: 14px;
+}
+.taxrirlash__btngroup {
+  margin-top: 70px;
+  justify-content: flex-end;
+}
+.taxrirlash__cansel-btn {
+  width: 120px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #4484EB;
+  border: 1px solid #4484EB;
+}
+.taxrirlash__save-btn {
+  width: 120px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: #4484EB;
+  cursor: pointer;
+  margin-left: 30px;
+  color: #fff;
+  border: 1px solid #4484EB;
+}
+
+
+
+
+
+
+
+
+
+
+

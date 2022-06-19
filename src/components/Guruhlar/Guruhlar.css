@@ -1,0 +1,124 @@
+.oqituvchi__tabel {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.oqituvchi__thead {
+  width: 100%;
+  display: table-header-group;
+}
+
+.oqituvchi__tr {
+  width: 100%;
+  display: table-row;
+  background-color: #fff;
+}
+
+.oqituvchi__th {
+  display: table-cell;
+  background-color: #f5f5fa;
+  padding: 16px;
+}
+
+.oqituvchi__thbtn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #bdbcca;
+  transition: all 0.3s linear;
+}
+/* .oqituvchi:hover  {
+  color: rgba(0, 0, 0, 0.87);
+  opacity: 0.6;
+} */
+
+.oqituvchi__body {
+  display: table-row-group;
+}
+
+.oqituvchi__td {
+  display: table-cell;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  color: #000000c5;
+  padding: 5px 16px;
+  transition: all 0.3s linear;
+}
+
+.oqituvchi__avabox {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.oqituvchi__ava {
+  width: 100%;
+  object-fit: cover;
+}
+
+.oqituvchi__names {
+  font-size: 16px;
+  color: #000000c5;
+}
+
+.oqituvchi__edit,
+.oqituvchi__error,
+.oqituvchi__xbtn {
+  background:none;
+  border: none;
+  border-radius: 4px;
+  font-size: 24px;
+  color: red;
+  padding: 5px;
+  margin: 4px;
+}
+
+.oqituvchi__error {
+  color: #ffce7b;
+}
+
+.oqituvchi__edit {
+  color: #af85ff;
+}
+
+
+
+
+.guruhlar__header {
+  margin-bottom: 20px;
+}
+.guruhlar__title {
+  font-size: 28px;
+  margin-right: 10px;
+}
+.guruhlar__addbtn {
+  width: 130px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #4484EB;
+  cursor: pointer;
+  margin-left: 30px;
+  color: #fff;
+  border: 1px solid #4484EB;
+}
+.guruhlar__form {
+  width: 40%;
+  padding: 10px 22px;
+  border-radius: 4px;
+  background-color: #ebebeb;
+}
+.guruhlar__search {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: 6px;
+}

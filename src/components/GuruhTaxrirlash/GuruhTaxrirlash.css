@@ -1,0 +1,48 @@
+.editgroup__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.editgroup__form{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 20px;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.editgroup__inputc {
+  width: 31%;
+  margin-bottom: 22px;
+}
+.editgroup__input {
+  padding: 8px 0;
+  font-size: 15px;
+  margin-bottom: 4px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+.editgroup__label {
+  font-size: 13px;
+}
+.editgroup__btn-group {
+  margin-top: 100px;
+  justify-content: center;
+}
+.editgroup__cansel-btn {
+  width: 120px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #4484EB;
+  border: 1px solid #4484EB;
+}
+.editgroup__save-btn {
+  width: 120px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: #4484EB;
+  cursor: pointer;
+  margin-left: 30px;
+  color: #fff;
+  border: 1px solid #4484EB;
+}

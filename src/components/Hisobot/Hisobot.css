@@ -1,0 +1,97 @@
+.hisobot {
+  padding: 20px;
+}
+.hisobot__header {
+  margin-bottom: 20px;
+}
+.hisobot__title {
+  font-size: 28px;
+  margin-right: 10px;
+}
+.hisobot__addbtn {
+  width: 130px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #4484EB;
+  cursor: pointer;
+  margin-left: 30px;
+  color: #fff;
+  border: 1px solid #4484EB;
+}
+.hisobot__form {
+  width: 40%;
+  padding: 10px 22px;
+  border-radius: 4px;
+  background-color: #ebebeb;
+}
+.hisobot__search {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: 6px;
+}
+.hisobot__content {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 20px;
+}
+.hisobot__content-header {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ccc;
+}
+.hisobot__guruh {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.hisobot__userimg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.hisobot__user-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.hisobot__user-oylik {
+  font-size: 15px;
+  color: #a09999;
+}
+.hisobot__uzs {
+  font-size: 15px;
+  color: #a09999;
+}
+.hisobot__holati {
+  font-size: 15px;
+  color: #a09999;
+}
+.hisobot__science {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.hisobot__edit-btn {
+  padding: 8px 14px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #223451;
+  color: #fff;
+}
+.hisobot__back-btn {
+  padding: 7px 13px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #223451;
+  color: #223451;
+}
+.hisobot__content-text {
+  font-weight: 600;
+}
+.hisobot__m5 {
+  margin: 0 5px;
+}
+.hisobot__content-hero {
+  margin-bottom: 20px;
+}
+
