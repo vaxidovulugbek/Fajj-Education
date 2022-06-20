@@ -9,7 +9,7 @@ function Guruhlar() {
        <div className='guruhlar__header df ai between'>
         <div className='df ai'>
           <h2 className='guruhlar__title'>Guruhlar</h2>          
-          <Link to={'/oqituvchilar/oquvchiqoshish'}><button className='guruhlar__addbtn' >Guruh qo'shish</button></Link>
+          <Link to={'/guruhqoshish'}><button className='guruhlar__addbtn' >Guruh qo'shish</button></Link>
         </div>
         <form className='guruhlar__form df ai'>
           <i className='bx bx-search'></i>

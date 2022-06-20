@@ -17,6 +17,7 @@ import { Teachers } from '../../Object/Object';
 import Taxrirlash from '../Taxrirlash/Taxrirlash';
 import OquvchiQoshish from '../OquvchiQoshish/OquvchiQoshish';
 import GuruhTaxrirlash from '../GuruhTaxrirlash/GuruhTaxrirlash';
+import GuruhQoshish from '../GuruhQoshish/GuruhQoshish';
 
 export let ContextProvider = createContext()
 
@@ -28,6 +29,12 @@ function Main() {
   let [editName,setEditName] = useState('')
   let [editPhone,setEditPhone] = useState('')
   let [editBirthday,setEditBirthday] = useState('')
+  
+  let [addName,setaddName] = useState('')
+  let [addPhone,setaddPhone] = useState('')
+  let [addFanlar,setaddFanlar] = useState('')
+  let [addHolati,setaddHolati] = useState('')
+  let [addTolov,setaddTolov] = useState('')
 
   let [editGroupSubject,setEditGroupSubject] = useState('')
   let [editTypeEducation,setEditTypeEducation] = useState('')
@@ -35,11 +42,12 @@ function Main() {
   let [editGroupPayment,setEditGroupPayment] = useState('')
   let [editGroupTeacher,setEditGroupTeacher] = useState('')
 
-  let [addName,setaddName] = useState('')
-  let [addPhone,setaddPhone] = useState('')
-  let [addFanlar,setaddFanlar] = useState('')
-  let [addHolati,setaddHolati] = useState('')
-  let [addTolov,setaddTolov] = useState('')
+
+  let [addGroupSubject,setAddGroupSubject] = useState('')
+  let [addTypeEducation,setAddTypeEducation] = useState('')
+  let [addGroupSituation,setAddGroupSituation] = useState('')
+  let [addGroupPayment,setAddGroupPayment] = useState('')
+  let [addGroupTeacher,setAddGroupTeacher] = useState('')
   
   // let [newStudent, setnewStudent] = useState([])
 
@@ -80,8 +88,11 @@ function Main() {
       setaddTolov(action.payload.target.value)
     }
     if (action.type === 'addelement') {
+      setStudents(Student.map(element => {
+        return element.id++
+      }))
       setStudents([{
-        id:11,
+        id:1,
         user_img: "https://source.unsplash.com/random?animal",
         name: addName,
         surName: "-",
@@ -129,6 +140,37 @@ function Main() {
         })
         setGroups(values)
     }
+
+    if (action.type === 'addgroupsubject') {
+      setAddGroupSubject(action.payload.target.value)
+    }
+    if (action.type === 'addgrouptype') {
+      setAddTypeEducation(action.payload.target.value)
+    }
+    if (action.type === 'addgroupsituation') {
+      setAddGroupSituation(action.payload.target.value)
+    }
+    if (action.type === 'addgrouppayment') {
+      setAddGroupPayment(action.payload.target.value)
+    }
+    if (action.type === 'addgroupteacher') {
+      setAddGroupTeacher(action.payload.target.value)
+    }
+    if (action.type === 'addgroup') {
+      setGroups(Group.map(element => {
+        return element.groupId++
+      }))
+      setGroups([{
+        id:11,
+        groupName: "yangi guruh",
+        teacher: addGroupTeacher,
+        groupId: 1,
+        status:addGroupSituation,
+        subject:addGroupSubject,
+        educationType:addTypeEducation,
+        payment:addGroupPayment,
+      },...Group])
+    }
    }
   
   let [state,dispatch] = useReducer(SchoolHendler,0)
@@ -152,6 +194,7 @@ function Main() {
               <Route path='oqituvchilar/taxrirlash/:id' element={<Taxrirlash />} />
               <Route path='oqituvchilar/oquvchiqoshish' element={<OquvchiQoshish />} />
               <Route path='guruhtaxrirlash/:id' element={ <GuruhTaxrirlash />} />
+              <Route path='guruhqoshish' element={<GuruhQoshish />} />
             </Routes>
           </div>
         </ContextProvider.Provider>
